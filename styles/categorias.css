@@ -1,0 +1,33 @@
+/* ---- Categorias ---- */
+.categorias {
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.categorias__titulo {
+    font-size: 1.2rem;
+    color: var(--cor-preto);
+    margin-bottom: 2rem;
+}
+
+.categorias__grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.categoria-item {
+    background-color: var(--cor-verde-claro);
+    padding: 0.8rem 1.2rem;
+    border-radius: 12px;
+    font-size: 0.9rem;
+    color: var(--cor-branco);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.categoria-item:hover {
+    background-color: #ddd;
+}

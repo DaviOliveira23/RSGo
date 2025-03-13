@@ -1,0 +1,80 @@
+/* Estilização geral */
+.cards-container {
+    padding: 2rem;
+    background-color: #f9f9f9;
+    
+}
+
+.cards-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+/* Grid dos cards */
+.cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    
+    
+}
+
+/* Card individual */
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-image {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 1rem;
+    text-decoration: none;
+
+}
+
+.card-category {
+    display: inline-block;
+    background-color: #ff6f61;
+    color: #fff;
+    padding: 0.3rem 0.6rem;
+    font-size: 0.8rem;
+    border-radius: 12px;
+    margin-bottom: 0.5rem;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.card-description {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 0.5rem;
+    
+}
+
+.card-location {
+    font-size: 0.85rem;
+    color: #999;
+}
+
+.card-link {
+    text-decoration: none;
+}
+

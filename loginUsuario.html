@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RS GO</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="styles/form.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__botao">
+            <label for="menu" class="container__rotulo">
+                <span class="cabecalho__menu-hamburguer"></span>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Destinos</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Quem somos</a>
+                </li>
+            </ul>
+            <a href="index.html">
+            <img src="imagens/Logotipo.png" alt="Logo do RS GO" class="container__imagem">
+            </a>            
+        </div>
+
+        <div>
+             <ul class="opcoes">
+                <input type="checkbox" id="opcoes-menu" class="opcoes__botao">
+                <label for="opcoes-menu" class="opcoes__rotulo">
+                    <li class="opcoes__item">Destinos</li>
+                </label>
+
+                <ul class="lista-menu">
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu__link">Pelotas</a>
+                    </li>
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu__link">Gramado</a>
+                    </li>
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu__link">Santana do Livramento</a>
+                    </li>
+                </ul>
+                
+                <li class="opcoes__item">
+                    <a href="#" class="opcoes__link">Quem somos</a>
+                </li>
+        </div>
+
+        <div class="container">
+            <a href="loginUsuario.html" class="container__link">
+            <p class="container__texto">Entrar</p>
+            </a>
+        </div>
+    </header>
+
+    <main> 
+        <form id="formUsuario" action="model/login.php" method="POST" enctype="multipart/form-data"> 
+            <label for="nome">Nome Completo:</label> 
+            <input type="text" name="nome" id="nome nm_cad" placeholder="Digite seu nome completo" required> 
+            <label for="email">E-mail:</label> 
+            <input type="email" name="email" id="email" placeholder="Digite seu e-mail" required> 
+            <label for="senha">Senha:</label> 
+            <input type="password" name="senha" id="senha" placeholder="Digite sua senha" required> 
+            <button type="submit">Login</button>
+            <a href="cadUsuario.html">Criar uma conta</a>
+        </form>
+      
+    
+    <section class="contato">
+        <div class="contato__descricao">
+            <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+            <p class="contato__texto">Nos acompanhe em nossas redes sociais ou cadastre seu email.</p>
+        </div>
+        <input type="email" placeholder="Cadastre seu e-mail" class="contato__email">
+    </section>
+
+    <hr />
+
+    <footer class="footer">
+        <p>&copy; 2025 RS GO. Todos os direitos reservados.</p>
+        <p>Explore o melhor do Rio Grande do Sul!</p>
+    </footer>
+    
+    <!--<script src="localStorage.js"></script> ------- Retirado pois deu conflito com o login.php-->
+
+</body>
+</html>

@@ -1,0 +1,76 @@
+/* Estilos gerais para o body e estrutura */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Estilizando o título do local */
+  #nome {
+    font-size: 2.5em;  
+    font-weight: bold;
+    color: #333;
+    margin: 20px 0;
+    text-align: center;
+  }
+  
+  /* Estilizando a descrição */
+  #descricao {
+    font-size: 1.2em;
+    color: #666;
+    line-height: 1.6;
+    margin: 20px 0;
+    padding: 0 20px;
+  }
+  
+  /* Estilizando a cidade */
+  #cidade {
+    font-size: 1.4em;
+    color: #555;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilizando a imagem principal */
+  #imagem {
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilos para o carrossel */
+  .carrossel {
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    margin-top: 40px;
+  }
+  
+  .carrossel img {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+
+  
+  

@@ -1,0 +1,83 @@
+/* Estilos Gerais */
+.card, .card-detalhe {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    margin: 2rem;
+}
+
+.card:hover, .card-detalhe:hover {
+    transform: translateY(-5px);
+}
+
+.card-image {
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 2rem;
+}
+
+.card-category {
+    display: inline-block;
+    background-color: #ff6f61;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 12px;
+    margin-bottom: 1rem;
+}
+
+.card-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.card-description, .card-cidade {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+/* Ajustes específicos para perfilLocal.html */
+.card-detalhe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem;
+}
+
+.card-detalhe .card-content {
+    width: 100%;
+    max-width: 800px;
+}
+
+.imagem {
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+    margin-bottom: 2rem;
+}
+
+.nome, .descricao, .cidade {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+}
+
+#carrossel {
+    margin-top: 2rem;
+}
+
+.swiper {
+    width: 100%;
+    height: 400px;
+}
